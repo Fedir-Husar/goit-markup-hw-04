@@ -467,11 +467,17 @@ display: flex;
     border-radius: 4px;
     fill:#afb1b8;
 }
-
+.clients-icon{
+    fill: #afb1b8;
+}
 .clients-link:hover, .clients-link:focus{
     fill: currentColor;
 }
 
+.clients-icon:hover,
+.clients-icon:focus {
+    fill: currentColor;
+}
 .clients-item:hover, .clients-item:focus{
     border-color: #2196F3;
  
